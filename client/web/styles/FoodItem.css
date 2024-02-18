@@ -1,0 +1,42 @@
+@import "_constants.css";
+
+.itemWrapper {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  width: 100%;
+  @media (width >= 500px) {
+    width: calc(50%);
+  }
+  @media (--bp2) {
+    width: calc(33%);
+  }
+  @media (--desktop) {
+    width: calc(50%);
+  }
+}
+
+.itemWrapperInner {
+  padding-left: 4px;
+  padding-right: 4px;
+  height: 100%;
+}
+
+.card {
+  height: 100%;
+  justify-content: space-between;
+}
+
+.plusminus {
+  font-size: 1.6rem;
+  width: 24px;
+}
+
+.oldPrice {
+  text-decoration: line-through;
+}
+
+.foodQuantityButtons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

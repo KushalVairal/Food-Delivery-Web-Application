@@ -1,0 +1,94 @@
+@import '_constants.css';
+
+.coloredBg {
+  background-color: var(--color-primary);
+  color: var(--color-primary-contrast);
+}
+
+.headerWrapper {
+  @apply --limitToWebSiteMaxWidth;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-bottom: 32px;
+  @media (--bp2) {
+    flex-wrap: nowrap;
+    padding-bottom: 0;
+  }
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100%;
+  @media (--bp1) {
+    flex-basis: auto;
+  }
+  @media (--desktop) {
+    flex-basis: 20%
+  }
+  & .logoBlock {
+
+    padding: 20px;
+  }
+}
+
+
+.aboutUs {
+  display: flex;
+  flex-basis: 100%;
+  flex-shrink: 1;
+  @media (--bp1) {
+    justify-content: center;
+    flex-basis: auto;
+  }
+  @media (--bp2) {
+    order: 2;
+  }
+  @media (--desktop) {
+    flex-basis: 25%;
+  }
+
+  & a {
+    white-space: nowrap;
+    color: var(--color-primary-contrast);
+  }
+
+  & .icon {
+    width: 2.8rem;
+  }
+
+  & .content {
+    padding: 8px 15px;
+    margin: 0 auto;
+  }
+}
+
+.titleWrapper {
+  flex: 1;
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+
+  @media (--bp1) {
+    font-size: 2.4rem;
+
+  }
+
+  @media (--bp2) {
+    flex-basis: auto;
+    order: 1;
+  }
+  @media (--desktop) {
+    font-size: 3rem;
+    flex-basis: 55%;
+    justify-content: flex-start;
+  }
+}

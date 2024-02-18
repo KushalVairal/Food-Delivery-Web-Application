@@ -1,0 +1,29 @@
+@import '_constants.css';
+
+.footer {
+  margin-top: 16px;
+  margin-bottom: 60px;
+  background-color: var(--color-primary);
+  color: var(--color-primary-contrast);
+  @media (--desktop) {
+    margin-bottom: 0;
+  }
+
+  & a {
+    white-space: nowrap;
+  }
+}
+
+.footerMain {
+  @apply --limitToWebSiteMaxWidth;
+}
+
+.copyrightWrapper {
+  background-color: var(--color-primary-dark);
+}
+
+.copyright {
+  composes: footerMain;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

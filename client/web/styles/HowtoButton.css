@@ -1,0 +1,16 @@
+@import '_constants.css';
+
+.howtoButtonWrapper {
+  position: relative;
+}
+
+.howtoButton {
+  z-index: 150;
+  position: absolute;
+  bottom: -28px;
+  right: 24px;
+}
+
+.dialogBody {
+  overflow: auto;
+}
