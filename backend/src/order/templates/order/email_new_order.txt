@@ -1,3 +1,0 @@
-Новый заказ №{{ order.hashed_id }}
-
-Ссылка: {{ order_url }}

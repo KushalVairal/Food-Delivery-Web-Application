@@ -1,70 +1,50 @@
-## About
-Web application for food delivery service with such features:
-+ React driven Single Page Application
-+ Mobile-first responsive design following Material design specs
-+ Simple UI, minimum steps from start to checkout
-+ Decoupled server and client
+### Food delivery app
 
-## Tech stack
-#### Frontend
-+ CSS modules
-+ postcss-cssnext
-+ react
-+ react-router v4
-+ react-toolbox Material Design UI Kit
-+ redux
-+ redux-thunk
-+ reselect
-+ seamless-immutable
-+ webpack and babel w/o create-react-app
-#### Backend
-+ Python
-+ Django
-+ Django REST Framework
-#### Deployment
-+ Docker and docker-compose
-+ nginx
-+ uwsgi
+### Show some :heart: and star the repo to support the project
 
-## Deployment
-1. Install `docker` and `docker-compose`
-1. Clone this repo and `cd` into
-1. Run `docker-compose up -d` to start up containers
-1. Apply migrations by running `docker-compose run backend migrate`
+<a href="https://www.linkedin.com/in/ashwin-bicholiya-9938481a0/">
+  <img align="left" alt="Ashwin's Linkdein" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+</a>[Linkedin]
+<br/>
 
-## Maintenance 
+### Check Other Flutter Project
+SCANPAY Self Checkout App 
+https://github.com/Ashwinbicholiya/scanpay
 
-#### update
-1. rebuild bundle
-```bash
-docker-compose up frontend
-```
-2. restart containers
-```bash
-docker-compose restart
-```
+### Apk
+https://drive.google.com/file/d/17dFLghpxs5x_lWXH_xyEmrzMMi4FT_8E/view?usp=drivesdk
 
-#### database back up
-```bash
-pg_dump -U fuchtard -Fc fuchtard > ~/dump_`date +%Y-%m-%d"_"%H_%M_%S`.bak
-```
+### Some Screenshots
 
-#### database restore
-```bash
-pg_restore -U fuchtard -d fuchtard -Fc dump.bak
-```
+![1](https://user-images.githubusercontent.com/47949413/93661921-4d1db200-fa79-11ea-8ebf-4ce3246ecf1e.JPG)
+![2](https://user-images.githubusercontent.com/47949413/93661926-5575ed00-fa79-11ea-9d37-463b4918a921.JPG)	
 
 
-## License
+### License
+    MIT License
 
-Contact me
+    Copyright (c) 2020 ashwin bicholiya
 
-## TODO
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
 
-1. ~~Get rid of jQuery mess~~
-1. Increase test coverage
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
 
-## Screenshots
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
 
-![Mobile](https://i.imgur.com/qUbzqA9.png "Mobile")
-![Desktop](https://i.imgur.com/pkScjPL.png "Desktop")
+## Getting Started
+For help getting started with Flutter, view our online
+[documentation](http://flutter.io/).
+<br/>
+For help on editing plugin code, view the [documentation](https://flutter.io/platform-plugins/#edit-code).
